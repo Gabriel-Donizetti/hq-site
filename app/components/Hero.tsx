@@ -77,7 +77,7 @@ export default function Hero() {
         className="relative z-10 mb-[-40px]"
       >
         <Image
-          src="/marmota.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/marmota.png`}
           alt="Mascote A Marmota"
           width={200}
           height={200}

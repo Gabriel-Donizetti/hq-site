@@ -1,12 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
- output: "export",
   basePath: "/hq-site",
   assetPrefix: "/hq-site/",
+
+  trailingSlash: true,
+
   images: {
     unoptimized: true,
   },
+
   env: {
     NEXT_PUBLIC_BASE_PATH: "/hq-site",
   },
