@@ -9,7 +9,7 @@ const comics = [
     title: "Balinha & Balão — Capítulo 1",
     description: "O começo de algo estranho",
     slug: "balinha-balao",
-    cover: "/comics/balinha-balao/cover.jpeg",
+    cover: `${process.env.NEXT_PUBLIC_BASE_PATH}/comics/balinha-balao/capa.jpeg`,
   },
 ];
 

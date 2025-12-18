@@ -48,7 +48,7 @@ export default async function ComicPage({ params }: Props) {
                 className="overflow-hidden rounded-xl"
               >
                 <Image
-                  src={`/comics/${slug}/page-${pageNumber}.jpeg`}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/comics/${slug}/page-${pageNumber}.jpeg`}
                   alt={`Página ${pageNumber}`}
                   width={1200}
                   height={1800}
